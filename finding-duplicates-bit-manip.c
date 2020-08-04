@@ -1,3 +1,7 @@
+// to count the number of repetitive characters in the given string, one can either try the bruteforce approach for comparing each letter in string. Another approach could be to use a hash table.
+// The first approach has higher complexity whereas the second one has additional space complexity.
+// the following approach basically maintains a binary number and set bits if the letter is found.
+
 #include <stdio.h>
 #include <string.h>
 
