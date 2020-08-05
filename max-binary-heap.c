@@ -1,3 +1,5 @@
+//inserting in the maximum binary heap, violation if heap[i]>heap[root] and then make a swap
+
 #include <stdio.h>
 
 int main()
