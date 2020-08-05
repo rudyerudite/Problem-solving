@@ -15,7 +15,7 @@ int main()
         start = i;
         root = (i-1)/2;
         
-        while(heap[start] > heap[root])
+        while((heap[start] > heap[root]) && start!=0)
         {
             tmp = heap[start];
             heap[start] = heap[root];
