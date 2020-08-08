@@ -47,6 +47,22 @@ int main(void) {
     }
     
     if(dp[n][sum] == 1)
-     printf("sum found");
+     {
+        int i = n;
+        int j = sum;
+        
+        while(j!=0 && i!=0)
+        {
+            if(dp[i-1][j]==1)
+                i--;
+            else
+            {
+                printf("\n%d",arr[i-1]);
+                j = j - arr[i-1];
+                i--;
+            }
+        }
+     }
 	return 0;
 }
+
