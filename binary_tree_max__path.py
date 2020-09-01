@@ -1,4 +1,5 @@
 # module taken from leet code problem; learned about call by object reference and static variable in python
+# realization: https://www.geeksforgeeks.org/is-python-call-by-reference-or-call-by-value/
 
 # Definition for a binary tree node.
 # class TreeNode(object):
